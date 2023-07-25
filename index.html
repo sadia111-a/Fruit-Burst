@@ -154,7 +154,8 @@
       </div>
     </div>
     <!-- banner extra part -->
-    <div class="hidden lg:block lg:w-4/5 lg:mx-auto lg:rounded-lg lg:border-none lg:-mt-20 lg:absolute lg:bg-white lg:left-20 ">
+    <div
+      class="hidden lg:block lg:w-4/5 lg:mx-auto lg:rounded-lg lg:border-none lg:-mt-20 lg:absolute lg:bg-white lg:left-20 lg:drop-shadow-xl ">
       <div class="flex justify-around  gap-5">
         <div>
           <img src="./images/fruit1.png" alt="">
@@ -168,7 +169,7 @@
           <img src="./images/fruit3.png" alt="">
           <p class="text-center">Mango</p>
         </div>
-        <div >
+        <div>
           <img src="./images/fruit4.png" alt="">
           <p class="text-center">Strawberry</p>
         </div>
@@ -182,7 +183,58 @@
 
   </header>
   <main>
+    <!-- deal of the day section -->
+    <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-28">
+      <div class="flex flex-col lg:flex-row py-5 justify-between">
+        <div class="">
+          <h1 class="text-[#121212] text-5xl font-extrabold mb-5">Deal of the day</h1>
+          <p class="text-[#12121299] text-base font-medium lg:w-3/4">Contrary to popular belief, is not simply random
+            text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+        </div>
+        <div class=" ">
+          <!-- count down -->
+          <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+            <div class="flex justify-center items-center  gap-3">
+              <div>
+                <span class="countdown text-[#121212] text-5xl font-extrabold">
+                  <span style="--value:29;"></span>
+                </span> <br>
+                <span class="text-[#12121299] text-base font-medium">Days</span>
+              </div>
+              <i class="fa-solid text-xl  fa-ellipsis-vertical"></i>
+            </div>
+            <!-- hours -->
+            <div class="flex justify-center items-center  gap-3">
+              <div>
+                <span class="countdown text-[#121212] text-5xl font-extrabold">
+                  <span style="--value:15;"></span>
+                </span> <br>
+                <span class="text-[#12121299] text-base font-medium">Hours</span>
+              </div>
+              <i class="fa-solid text-xl  fa-ellipsis-vertical"></i>
+            </div>
+            <!-- minutes -->
+            <div class="flex justify-center items-center  gap-3">
+              <div>
+                <span class="countdown text-[#121212] text-5xl font-extrabold">
+                  <span style="--value:25;"></span>
+                </span> <br>
+                <span class="text-[#12121299] text-base font-medium">Minutes</span>
+              </div>
+              <i class="fa-solid text-xl  fa-ellipsis-vertical"></i>
+            </div>
+            <!-- seconds -->
+            <div class="flex flex-col">
+              <span class="countdown text-[#121212] text-5xl font-extrabold">
+                <span style="--value:8;"></span>
+              </span>
+              <span class="text-[#12121299] text-base font-medium">Seconds</span>
+            </div>
+          </div>
+        </div>
+      </div>
 
+    </section>
   </main>
   <footer>
 
