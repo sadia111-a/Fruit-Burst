@@ -34,7 +34,7 @@
 <body class="lato">
   <header>
     <!-- navbar section -->
-    <nav class="container mx-auto  ">
+    <nav class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-0  ">
       <div class="navbar lg:bg-[#F85559] rounded-full ">
         <div class="navbar-start text-white hidden lg:flex">
           <ul class="menu menu-horizontal px-1 text-lg font-medium">
@@ -44,20 +44,20 @@
             <li><a>All Fruits</a></li>
           </ul>
         </div>
-  
-  
-  
-  
-        <div class=" lg:block lg:navbar-center ">
+
+
+
+
+        <div class=" lg:block  lg:navbar-center ">
           <div class="flex items-center pb-4">
             <a class="btn btn-ghost normal-case text-xl ">
-              <img src="./images/logo.png" alt="">
-              <span class="text-3xl font-bold lg:text-white">Fruit Burst</span>
+              <img class="" src="./images/logo.png" alt="">
+              <span class="text-xl lg:text-3xl font-bold lg:text-white">Fruit Burst</span>
             </a>
           </div>
         </div>
-  
-        <div class="navbar-end  flex  lg:hidden ">
+
+        <div class="navbar-end  flex justify-end lg:hidden ">
           <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
@@ -72,14 +72,13 @@
               <li><a>All Fruits</a></li>
             </ul>
           </div>
-  
         </div>
-  
+
         <div class="navbar-end ">
-  
-          <div class="navbar-end hidden lg:block ">
+
+          <div class="lg:navbar-end hidden lg:block ">
             <a class="btn rounded-full px-12">
-              <span class="text-[#12121266]">search here</span>
+              <span class="text-[#12121266] text-sm">search here</span>
               <i class="fa-solid fa-magnifying-glass pl-10"></i>
             </a>
           </div>
@@ -92,7 +91,7 @@
       <div class="carousel w-full mt-0 ">
         <!-- slider 1 -->
         <div id="slide1" class="carousel-item relative w-full  ">
-          <div class="hero text-[#FFF] min-h-[calc(100vh-64px)]" style="background-image: url(./images/banner1.png);">
+          <div class="hero  text-[#FFF] min-h-[calc(100vh-64px)]" style="background-image: url(./images/banner1.png);">
             <div class="hero-overlay bg-opacity-60 "></div>
             <div class="hero-content text-center text-neutral-content">
               <div class="max-w-sm md:max-w-md lg:max-w-xl">
@@ -201,11 +200,13 @@
     <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-28">
       <div class="flex flex-col lg:flex-row py-5 justify-center lg:justify-between">
         <div class=" ">
-          <h1 class="text-[#121212] text-center lg:text-left  text-3xl font-bold lg:text-5xl lg:font-extrabold mb-5">Deal of the day</h1>
-          <p class="text-[#12121299] text-base font-medium text-center lg:text-left  lg:w-3/4">Contrary to popular belief, is not simply random
+          <h1 class="text-[#121212] text-center lg:text-left  text-3xl font-bold lg:text-5xl lg:font-extrabold mb-5">
+            Deal of the day</h1>
+          <p class="text-[#12121299] text-base font-medium text-center lg:text-left  lg:w-3/4">Contrary to popular
+            belief, is not simply random
             text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
         </div>
-        <div class=" "> 
+        <div class=" ">
           <!-- count down -->
           <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
             <!-- Hours -->
@@ -509,6 +510,98 @@
             </div>
           </div>
         </div>
+      </div>
+    </section>
+    <!-- why choose us section -->
+    <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10">
+      <h2 class="text-[#121212] text-3xl lg:text-5xl font-bold lg:font-extrabold text-center mb-5">Why Choose Us</h2>
+      <p class="text-[#12121299] mb-5 text-center text-sm lg:text-base lg:font-medium">Contrary to popular belief, is
+        not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000
+        years old.</p>
+
+      <div class="grid grid-cols-1 lg:flex gap-3">
+        <!-- left text -->
+        <div>
+          <div class="flex justify-center items-center gap-2 mb-4">
+            <div>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div>
+              <h3 class="text-[#121212] text-xl font-bold lg:font-extrabold lg:text-2xl">Dedicated Team</h3>
+              <hr>
+              <p class="text-[#12121299] text-sm lg:text-base font-medium">Professional employees are there for you to
+                pick the most amazing and fresh fruits.</p>
+            </div>
+          </div>
+          <div class="flex justify-center items-center gap-2 mb-4">
+            <div>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div>
+              <h3 class="text-[#121212] text-xl font-bold lg:font-extrabold lg:text-2xl">Gift Certificates</h3>
+              <hr>
+              <p class="text-[#12121299] text-sm lg:text-base font-medium">Professional employees are there for you to
+                pick the most amazing and fresh fruits.</p>
+            </div>
+          </div>
+          <div class="flex justify-center items-center gap-2 mb-4">
+            <div>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div>
+              <h3 class="text-[#121212] text-xl font-bold lg:font-extrabold lg:text-2xl">Fresh is Best</h3>
+              <hr>
+              <p class="text-[#12121299] text-sm lg:text-base font-medium">Professional employees are there for you to
+                pick the most amazing and fresh fruits.</p>
+            </div>
+          </div>
+
+
+        </div>
+        <!-- middle image -->
+        <div>
+          <img src="./images/whychoose1.png" alt="">
+        </div>
+        <!-- right text -->
+        <div>
+          <div class="flex justify-center text-right items-center gap-2 mb-4">
+            
+            <div>
+              <h3 class="text-[#121212] text-xl font-bold lg:font-extrabold lg:text-2xl">Dedicated Team</h3>
+              <hr>
+              <p class="text-[#12121299] text-sm lg:text-base font-medium">Professional employees are there for you to
+                pick the most amazing and fresh fruits.</p>
+            </div>
+            <div>
+              <i class="fa-regular fa-heart text-right"></i>
+            </div>
+          </div>
+          <div class="flex justify-center text-right items-center gap-2 mb-4">
+            
+            <div>
+              <h3 class="text-[#121212] text-xl font-bold lg:font-extrabold lg:text-2xl">Dedicated Team</h3>
+              <hr>
+              <p class="text-[#12121299] text-sm lg:text-base font-medium">Professional employees are there for you to
+                pick the most amazing and fresh fruits.</p>
+            </div>
+            <div>
+              <i class="fa-regular fa-heart text-right"></i>
+            </div>
+          </div>
+          <div class="flex justify-center text-right items-center gap-2 mb-4">
+            
+            <div>
+              <h3 class="text-[#121212] text-xl font-bold lg:font-extrabold lg:text-2xl">Dedicated Team</h3>
+              <hr>
+              <p class="text-[#12121299] text-sm lg:text-base font-medium">Professional employees are there for you to
+                pick the most amazing and fresh fruits.</p>
+            </div>
+            <div>
+              <i class="fa-regular fa-heart text-right"></i>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
 
